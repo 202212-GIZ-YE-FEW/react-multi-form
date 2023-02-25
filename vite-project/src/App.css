@@ -1,0 +1,15 @@
+.App{
+    height: 100vh;    
+    display: grid;
+    place-items: center;
+    background-color: #EEF5FF;
+}
+.row{
+    height: 100%;
+}
+.innercontainer{
+    max-height:auto ;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 20px;
+}
