@@ -1,8 +1,8 @@
 .Heading{
-   font-family: Ubuntu-Regular;
+   font-family: 'Ubuntu-Regular';
 }
 .Heading h2{
-    font-family: Ubuntu-Bold;
+    font-family: 'Ubuntu-Bold';
     color: #072E65;
 }
 .Heading p {
