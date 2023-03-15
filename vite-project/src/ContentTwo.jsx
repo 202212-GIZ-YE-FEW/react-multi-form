@@ -6,7 +6,7 @@ import Plan from './Plan'
 
 function ContentTwo() {
     return (
-        <div className='col-9 content-two' style={{ background: "#FFF", height: '100%' }}>
+        <div className='col-lg-9 col-md-8 col-sm-12 content-two' style={{ background: "#FFF", height: '100%' }}>
             <div className="content">
                 <Heading title="Select your plan" desc="you have the option of monthly or yearly billing" />
                 <div className='plan-container'>

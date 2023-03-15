@@ -7,6 +7,17 @@
     height: 100%;
 }
 
+@media screen and (max-width:991px) {
+    .leftside {
+        background: url('./assets/bg-sidebar-mobile.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 0px;
+        height: 100%;
+    }
+}
+
 .innerleftside {
     height: 300px;
     padding-top: 45px;
@@ -15,6 +26,19 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: left;
+}
+
+@media screen and (max-width:991px) {
+    .innerleftside {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0;
+        padding-left: 0;
+        height: 150px;
+        width: 70%;
+        margin: auto;
+    }
 }
 
 .sidebarcontent {
@@ -46,6 +70,18 @@
     color: #F9FEFF;
     font-family: Ubuntu-Bold;
     letter-spacing: 0.8px;
+}
+
+.sidebarcontent .step-info {
+    display: block;
+}
+
+
+
+@media screen and (max-width:991px) {
+    .sidebarcontent .step-info {
+        display: none;
+    }
 }
 
 /* Start Content-two  */
@@ -104,6 +140,15 @@
     border-radius: 10px;
     display: flex;
     place-content: center;
+}
+
+@media screen and (max-width:991px) {
+    .content-two .section-two {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
 
 .content-two .section-two span {
@@ -173,11 +218,21 @@
 .content-two .section-two .slider.round:before {
     border-radius: 50%;
 }
+
 .content-two .last-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 80px;
+}
+@media screen and (max-width:991px) {
+    .content-two .last-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 80px;
+    }
 }
 .content-two .last-section .btn-content {
     background-color: #174A8B;
@@ -201,6 +256,13 @@
     font-family: 'Ubuntu-Medium';
     display: flex;
     justify-content: flex-end;
+}
+
+@media screen and (max-width:991px) {
+    .content-two {
+        position: absolute;
+        top: 190px;
+    }
 }
 
 /* End Content-two  */

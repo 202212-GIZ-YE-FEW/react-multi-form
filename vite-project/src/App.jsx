@@ -19,7 +19,7 @@ function App() {
       <div className="container">
         <div className='innercontainer'>
           <div className='row g-0'>
-            <div className='col-3'>
+            <div className='col-lg-3 col-md-12 col-sm-12'>
               <div className="leftside">
                 <div className="innerleftside">
                   <Contentsidebar onClick={() => { handleClick(1) }} number="1" Step="STEP 1" info="YOUR INFO" />

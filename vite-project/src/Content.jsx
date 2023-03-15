@@ -5,7 +5,7 @@ import Input from "./Input"
 function Content() {
     return (
         <>
-            <div className='col-9' style={{ background: "#FFF" , height:'100%'}}>
+            <div className='col-lg-9 col-md-8 col-sm-12' style={{ background: "#FFF" , height:'100%' ,position:'relative'}}>
                 <div className="content">
                     <Heading title="Personl info" desc="Please provide your name, email address, and phone number." />
                     <form className='formcompenent'>

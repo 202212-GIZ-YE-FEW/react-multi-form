@@ -3,7 +3,7 @@ function Contentsidebar({number ,Step , info , onClick}){
      <>
        <div className="sidebarcontent"onClick={onClick}>
         <span className='number'>{number}</span>
-        <div>
+        <div className="step-info">
             <h5>{Step}</h5>
             <span>{info}</span>
         </div>

@@ -3,114 +3,130 @@
   height: 80vh;
 }
 
+@media screen and (max-width:991px) {
+  .leftside {
+    height: 20vh;
+  }
+}
+
 .col-9 {
   flex: 1;
 }
 
- 
- 
- h3, .p {
-   
-    padding-left: 50px;
-  }
 
-  .p {
-    display: flex;
-    justify-content: space-between;
-    
-  }
 
-  h4 {
-    padding-left: 180px;
-    color: #777;
-  
-    
-    
-  }
-  .option-box {
-    display: flex;
-    
-    padding: 1rem;
-    border-radius: 10px;
-    margin-bottom: 1rem;
-    border: 1px solid rgb(34, 75, 212);
-    background-color: rgba(77, 68, 68, 0.01);
-  }
-  
-  .option-box h3 {
-    margin: 0;
-    font-size: 1rem;
-  }
-  
-  .option-box label {
-    display: flex;
-    align-items: center;
-  }
-  
-  .option-box input[type="checkbox"] {
-    margin-right: 
-  
+h3,
+.p {
 
-  }
-    
+  padding-left: 50px;
+}
+
+.p {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+h4 {
+  padding-left: 180px;
+  color: #777;
+
+
+
+}
+
+.option-box {
+  display: flex;
+
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid rgb(34, 75, 212);
+  background-color: rgba(77, 68, 68, 0.01);
+}
+
+.option-box h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.option-box label {
+  display: flex;
+  align-items: center;
+}
 
 
 
 
-  .pricing {
-    margin-top: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 1rem;
-  }
-  
-  .pricing .item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5rem;
-  }
-  
-  .pricing .item .name {
-    flex: 1;
-    font-weight: bold;
-  }
-  
-  .pricing .item .price {
-    font-size: 0.8rem;
-    color: #aaa;
-  }
-  
-  .pricing .item .quantity {
-    font-size: 0.8rem;
-    color: #aaa;
-  }
-  
-  .pricing .item.total {
-    border-top: 1px solid #ccc;
-    margin-top: 0.5rem;
-    padding-top: 0.5rem;
-    font-weight: bold;
-  }
-  
 
-  .confirm-button {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
+
+.pricing {
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.pricing .item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.pricing .item .name {
+  flex: 1;
+  font-weight: bold;
+}
+
+.pricing .item .price {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.pricing .item .quantity {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.pricing .item.total {
+  border-top: 1px solid #ccc;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  font-weight: bold;
+}
+
+
+.confirm-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.confirm-button button {
+  padding: 0.5rem 2rem;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.confirm-button button:hover {
+  background-color: #2980b9;
+}
+
+@media screen and (max-width:991px) {
+  .p-content-three {
+    height: fit-content;
+    position: absolute;
+    top: 195px;
   }
-  
-  .confirm-button button {
-    padding: 0.5rem 2rem;
-    border: none;
-    background-color: #3498db;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 5px;
-    cursor: pointer;
+
+  .content-four-box {
+    height: fit-content;
+    position: absolute;
+    top: 195px;
   }
-  
-  .confirm-button button:hover {
-    background-color: #2980b9;
-  }
-  
+}

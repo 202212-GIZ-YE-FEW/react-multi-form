@@ -2,9 +2,10 @@ import React from 'react';
 import Heading from './Heading';
 import "./styles.css"
 
+
 function ContentThree() {
   return (
-    <div className='col-lg-9 col-md-8 col-sm-12' style={{ background: "#FFF", height: '100%' }}>
+    <div className='col-lg-9 col-md-8 col-sm-12 p-content-three' style={{ background: "#FFF", height: '100%' }}>
       <div className="content">
         <Heading title="Pick add-ons" desc="Add-ons help enhance your gaming experience." />
 

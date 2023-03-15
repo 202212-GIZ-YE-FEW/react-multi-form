@@ -3,7 +3,7 @@ import Heading from './Heading';
 
 function ContentFour() {
   return (
-    <div className='col-lg-9 col-md-8 col-sm-12' style={{ background: "#FFF", height: '100%' }}>
+    <div className='col-lg-9 col-md-8 col-sm-12 content-four-box' style={{ background: "#FFF", height: '100%' }}>
       <div className="content">
         <Heading title="Finishing up" desc="Double-check everything looks oK before confirming." />
 
