@@ -119,13 +119,13 @@ h4 {
 
 @media screen and (max-width:991px) {
   .p-content-three {
-    height: fit-content;
+    height: fit-content !important;
     position: absolute;
     top: 195px;
   }
 
   .content-four-box {
-    height: fit-content;
+    height: fit-content !important;
     position: absolute;
     top: 195px;
   }
