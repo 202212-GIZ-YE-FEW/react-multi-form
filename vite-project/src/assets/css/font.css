@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src:
+        local('Ubuntu'),
+        local('Ubuntu-Regular'),
+        url('../fonts/Ubuntu-Regular.ttf');
+}
+@font-face {
+    font-family: 'Ubuntu-Medium';
+    src:
+        local('Ubuntu'),
+        local('Ubuntu-Medium'),
+        url('../fonts/Ubuntu-Medium.ttf');
+}
+@font-face {
+    font-family: 'Ubuntu-Bold';
+    src:
+        local('Ubuntu'),
+        local('Ubuntu-Bold.ttf'),
+        url('../fonts/Ubuntu-Bold.ttf');
+}

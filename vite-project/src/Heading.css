@@ -1,0 +1,38 @@
+.Heading{
+   font-family: 'Ubuntu-Regular';
+}
+.Heading h2{
+    font-family: 'Ubuntu-Bold';
+    color: #072E65;
+}
+.Heading p {
+    font-size: 18px;
+    color: #9898A0;
+}
+
+.formcompenent{
+    margin-top: 50px;
+    height: 100%;
+}
+.formcompenent label{
+    width: 100%;
+    color: #162238;
+    font-family: 'Ubuntu-Medium';
+    margin-bottom: 30px;
+}
+.formcompenent input{
+ margin-top: 5px;
+ border-radius: 6px;
+ border: none;
+ border: 1px solid #DBDADF;
+ padding: 10px 15px;
+ color: #182D40;
+ font-size: 18px;
+ font-family: 'Ubuntu-Medium';
+ width: 100%;
+}
+
+.formcompenent input:focus{
+    outline: 1px solid #514E93;
+    padding-right: 180px;
+}

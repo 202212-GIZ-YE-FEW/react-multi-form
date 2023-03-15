@@ -1,0 +1,43 @@
+.App {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #EEF5FF;
+}
+
+@media screen and (max-width:991px) {
+    .App {
+
+        display: block;
+        place-items: center;
+
+    }
+}
+
+.row {
+    height: 100%;
+}
+
+.innercontainer {
+    height: auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:991px) {
+    .innercontainer {
+        height: auto;
+        background-color: #FFFFFF;
+        padding: 0;
+        border-radius: 0;
+    }
+}
+
+
+@media screen and (max-width:991px) {
+    .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
